@@ -1,0 +1,11 @@
+.nav-container {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.logo {
+  height: 30px;
+  width: 120px;
+}

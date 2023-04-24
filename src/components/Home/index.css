@@ -1,0 +1,46 @@
+.bg-container {
+  background-color: #f1f5f9;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  color: #1e293b;
+  font-family: 'roboto';
+  font-size: 25px;
+  font-weight: 700;
+}
+.all-course-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.failure-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.failure-img {
+  height: 200px;
+  width: 200px;
+}
+.failure-description {
+  color: #1e293b;
+  font-family: 'roboto';
+  font-size: 15px;
+}
+.failure-btn {
+  background-color: #4656a1;
+  color: #f1f5f9;
+  font-family: 'roboto';
+  font-size: 13px;
+  padding: 10px;
+  border: none;
+  border-radius: 7px;
+}
